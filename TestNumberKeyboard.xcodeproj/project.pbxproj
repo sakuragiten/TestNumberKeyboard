@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C989B9D1F037552003509A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C989B9C1F037552003509A3 /* main.m */; };
+		3C989BA01F037552003509A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C989B9F1F037552003509A3 /* AppDelegate.m */; };
+		3C989BA31F037552003509A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C989BA21F037552003509A3 /* ViewController.m */; };
+		3C989BA61F037552003509A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C989BA41F037552003509A3 /* Main.storyboard */; };
+		3C989BA81F037552003509A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C989BA71F037552003509A3 /* Assets.xcassets */; };
+		3C989BAB1F037552003509A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C989BA91F037552003509A3 /* LaunchScreen.storyboard */; };
+		3C989BB91F0375C5003509A3 /* GSNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C989BB81F0375C5003509A3 /* GSNumberTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C989B981F037552003509A3 /* TestNumberKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNumberKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C989B9C1F037552003509A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C989B9E1F037552003509A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C989B9F1F037552003509A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C989BA11F037552003509A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C989BA21F037552003509A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C989BA51F037552003509A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C989BA71F037552003509A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C989BAA1F037552003509A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C989BAC1F037552003509A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C989BB71F0375C5003509A3 /* GSNumberTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSNumberTextField.h; sourceTree = "<group>"; };
+		3C989BB81F0375C5003509A3 /* GSNumberTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSNumberTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C989B951F037552003509A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C989B8F1F037552003509A3 = {
+			isa = PBXGroup;
+			children = (
+				3C989B9A1F037552003509A3 /* TestNumberKeyboard */,
+				3C989B991F037552003509A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C989B991F037552003509A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C989B981F037552003509A3 /* TestNumberKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C989B9A1F037552003509A3 /* TestNumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3C989BB61F0375C5003509A3 /* GSNumberTextField */,
+				3C989B9E1F037552003509A3 /* AppDelegate.h */,
+				3C989B9F1F037552003509A3 /* AppDelegate.m */,
+				3C989BA11F037552003509A3 /* ViewController.h */,
+				3C989BA21F037552003509A3 /* ViewController.m */,
+				3C989BA41F037552003509A3 /* Main.storyboard */,
+				3C989BA71F037552003509A3 /* Assets.xcassets */,
+				3C989BA91F037552003509A3 /* LaunchScreen.storyboard */,
+				3C989BAC1F037552003509A3 /* Info.plist */,
+				3C989B9B1F037552003509A3 /* Supporting Files */,
+			);
+			path = TestNumberKeyboard;
+			sourceTree = "<group>";
+		};
+		3C989B9B1F037552003509A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C989B9C1F037552003509A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C989BB61F0375C5003509A3 /* GSNumberTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3C989BB71F0375C5003509A3 /* GSNumberTextField.h */,
+				3C989BB81F0375C5003509A3 /* GSNumberTextField.m */,
+			);
+			path = GSNumberTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C989B971F037552003509A3 /* TestNumberKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C989BAF1F037552003509A3 /* Build configuration list for PBXNativeTarget "TestNumberKeyboard" */;
+			buildPhases = (
+				3C989B941F037552003509A3 /* Sources */,
+				3C989B951F037552003509A3 /* Frameworks */,
+				3C989B961F037552003509A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestNumberKeyboard;
+			productName = TestNumberKeyboard;
+			productReference = 3C989B981F037552003509A3 /* TestNumberKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C989B901F037552003509A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.liwai.liwaiSupplier;
+				TargetAttributes = {
+					3C989B971F037552003509A3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 94Y5F6BCXT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C989B931F037552003509A3 /* Build configuration list for PBXProject "TestNumberKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C989B8F1F037552003509A3;
+			productRefGroup = 3C989B991F037552003509A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C989B971F037552003509A3 /* TestNumberKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C989B961F037552003509A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C989BAB1F037552003509A3 /* LaunchScreen.storyboard in Resources */,
+				3C989BA81F037552003509A3 /* Assets.xcassets in Resources */,
+				3C989BA61F037552003509A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C989B941F037552003509A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C989BA31F037552003509A3 /* ViewController.m in Sources */,
+				3C989BA01F037552003509A3 /* AppDelegate.m in Sources */,
+				3C989BB91F0375C5003509A3 /* GSNumberTextField.m in Sources */,
+				3C989B9D1F037552003509A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C989BA41F037552003509A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C989BA51F037552003509A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C989BA91F037552003509A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C989BAA1F037552003509A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C989BAD1F037552003509A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C989BAE1F037552003509A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C989BB01F037552003509A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 94Y5F6BCXT;
+				INFOPLIST_FILE = TestNumberKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liwai.liwaiSupplier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		3C989BB11F037552003509A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 94Y5F6BCXT;
+				INFOPLIST_FILE = TestNumberKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liwai.liwaiSupplier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C989B931F037552003509A3 /* Build configuration list for PBXProject "TestNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C989BAD1F037552003509A3 /* Debug */,
+				3C989BAE1F037552003509A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C989BAF1F037552003509A3 /* Build configuration list for PBXNativeTarget "TestNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C989BB01F037552003509A3 /* Debug */,
+				3C989BB11F037552003509A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C989B901F037552003509A3 /* Project object */;
+}
